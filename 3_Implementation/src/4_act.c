@@ -3,7 +3,7 @@
 /**
  * @brief Initialize usart
  * 
- * @param ubrr_value 
+ * 
  */
 
 
@@ -15,11 +15,7 @@ void USARTInit(uint16_t ubrr_value){
     USART_CONTROL_PIN_B = SET_CONTROL_PIN_B;
 }
 
-/**
- * @brief write to usart
- * 
- * @param data 
- */
+
 
 void USARTWriteChar(int data){
     if(data==1){
