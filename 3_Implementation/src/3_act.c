@@ -4,10 +4,6 @@
 #include "3_act.h"
 
 
-/**
- * @brief A function to setup timer1 with channel A for pulse width modulation with wave generation mode of 10 bits fast PWM and prescaling of 64.
- * 
- */
 void TimerWaveGenMode(void){
 
     SET_TIMER1A_FAST_PWM; //setting timer1 for PWM
@@ -16,12 +12,7 @@ void TimerWaveGenMode(void){
 
 }
 
-/**
- * @brief A function which receives 10 bit of ADC input from temperature sensor and outputs as a fast PWM waveform.
- * 
- * @param ADC_val 
- * @return char
- */
+
 int outputbyPWM(uint16_t ADC_val)
 {if(ADC_val<=209){
 
