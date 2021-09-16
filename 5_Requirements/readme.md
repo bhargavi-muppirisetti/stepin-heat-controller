@@ -62,3 +62,4 @@ It can be modified by changing the Temperature.
 | HLR3_LLR3 | LM355 sensor | To measure temperature |
 | HLR4_LLR4 | ADC with PWM-Fast | It operate at a wide frequency range |
 | HLR5_LLR5 | LCD | Temperature should be displayed on LCD |
+
